@@ -33,7 +33,7 @@ It can also enhance your [PWA](https://developer.mozilla.org/en-US/docs/Web/Prog
 It is really easy and simple to install and use `CURD.js`. Copy and Paste the following script to your code.
 
 ```
-<script src="github/detronet.dip/ds/js/CURD.min.js">
+<script src="dist/curd.min.js">
 ```
 
 You can also download and add the `CURD.min.js` file to your code.
