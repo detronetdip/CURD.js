@@ -49,19 +49,19 @@ Main database is an object which has all the collections containing all the data
 ```
     MainDatabase : {
         firstCollection{
-            key1:{
+            index1:{
                 Data Object
             },
-            key2:{
+            index2:{
                 Data Object
             },
             ...
         },
         secondCollection{
-            key1:{
+            index1:{
                 Data Object
             },
-            key2:{
+            index2:{
                 Data Object
             },
             ...
