@@ -30,14 +30,11 @@ It can also enhance your [PWA](https://developer.mozilla.org/en-US/docs/Web/Prog
 
 <h2 id="installation">Installation</h2>
 
-It is really easy and simple to install and use `CURD.js`. Copy and Paste the following script to your code.
+It is really easy and simple to install and use `CURD.js`. Copy and Paste the following link inside your head tag.
 
 ```
-<script src="dist/curd.min.js">
+https://res.cloudinary.com/dxqq6aqn8/raw/upload/v1631719782/CURD/curd.min_watyvb.js
 ```
-
-You can also download and add the `CURD.min.js` file to your code.
-And you are good to go with superpowers.
 
 <h2 id="structure">Structure</h2>
 It's good to have a clear concept of the structure of your database.
