@@ -915,35 +915,10 @@
 </code></pre>
           <p>
             It takes <code>collection name</code> as first parameter and
-            <code>DB</code> as second parameter and return a new
+            <code>DB</code> as second parameter and return a
             <code>collection</code> in which we can perform
             <code>insert</code> operation.<br />
-            If <code>collection</code> alredy exists it will return
-            <code>false</code>.<br />
-            Now if any <code>collection</code> exists we have to call
-            <code>.getCollection()</code> method in order to performe insert
-            operations in that <code>collection</code>.<br />
-            <br />
-          </p>
-          <pre
-            data-role="codeBlock"
-            data-info
-            class="language-"
-          ><code>DB.getCollection(collection name,DB);
-</code></pre>
-          <p>
-            It returs the <code>collection</code> object which will be used to
-            perform insert operations on that <code>collection</code><br />
-            <br />
-          </p>
-          <pre
-            data-role="codeBlock"
-            data-info
-            class="language-"
-          ><code>var oldCollection = DB.getCollection(&apos;firstCollection&apos;,DB)
-</code></pre>
-          <p>
-            Now we can performe normal insert operations on this
+            Now we can performe insert operations on this
             <code>collection</code>.
           </p>
         </li>
