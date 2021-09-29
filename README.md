@@ -32,10 +32,10 @@ It can also enhance your [PWA](https://developer.mozilla.org/en-US/docs/Web/Prog
 
 <h2 id="installation">Installation</h2>
 
-It is really easy and simple to install and use `CURD.js`. Copy and Paste the following script to your code.
+It is really easy and simple to install and use `CURD.js`. Copy and Paste the following link to your code.
 
 ```
-<script src="dist/js/curd.min.js">
+https://res.cloudinary.com/dxqq6aqn8/raw/upload/v1632910286/CURD/curd.min_urp5x3.js
 ```
 
 You can also download and add the `CURD.min.js` file to your code.
