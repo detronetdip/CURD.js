@@ -1,5 +1,7 @@
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)  [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
 # CURD.js
+
 `CURD.js` gives you wing in your localStorage.
 
 <p>
@@ -30,11 +32,14 @@ It can also enhance your [PWA](https://developer.mozilla.org/en-US/docs/Web/Prog
 
 <h2 id="installation">Installation</h2>
 
-It is really easy and simple to install and use `CURD.js`. Copy and Paste the following link inside your head tag.
+It is really easy and simple to install and use `CURD.js`. Copy and Paste the following script to your code.
 
 ```
-https://res.cloudinary.com/dxqq6aqn8/raw/upload/v1631719782/CURD/curd.min_watyvb.js
+<script src="dist/js/curd.min.js">
 ```
+
+You can also download and add the `CURD.min.js` file to your code.
+And you are good to go with superpowers.
 
 <h2 id="structure">Structure</h2>
 It's good to have a clear concept of the structure of your database.
@@ -46,19 +51,19 @@ Main database is an object which has all the collections containing all the data
 ```
     MainDatabase : {
         firstCollection{
-            index1:{
+            key1:{
                 Data Object
             },
-            index2:{
+            key2:{
                 Data Object
             },
             ...
         },
         secondCollection{
-            index1:{
+            key1:{
                 Data Object
             },
-            index2:{
+            key2:{
                 Data Object
             },
             ...
@@ -98,23 +103,8 @@ Main database is an object which has all the collections containing all the data
   var firstCollection = DB.createCollection('firstCollection');
   ```
 
-  It takes `collection name` as first parameter and `DB` as second parameter and return a new `collection` in which we can perform `insert` operation.
-  If `collection` alredy exists it will return `false`.
-  Now if any `collection` exists we have to call `.getCollection()` method in order to performe insert operations in that `collection`.
-  <br>
-
-  ```
-  DB.getCollection(collection name,DB);
-  ```
-
-  It returs the `collection` object which will be used to perform insert operations on that `collection`
-  <br>
-
-  ```
-  var oldCollection = DB.getCollection('firstCollection',DB)
-  ```
-
-  Now we can performe normal insert operations on this `collection`.
+  It takes `collection name` as first parameter and `DB` as second parameter and return a `collection` in which we can perform `insert` operation.
+  Now we can performe insert operations on this `collection`.
 
 - ### Collection Exists Or Not
 
@@ -354,4 +344,3 @@ Main database is an object which has all the collections containing all the data
   Though it works like a document database but it has it's own drawbacks. As it is using localStorage for storing the data it is not secure that enough though you can store encrypted data, and localStorage gives only 5MB of storage so you can't store more than 5MB data.
   <br>
   **So if you are using it to store data, not in encrypted format, please do not store crusial information.**
-  
